@@ -1,5 +1,9 @@
-user= 1
-a =2
-b = 3
-C = '{} {}'.format(a,b)
-print(C)
+a = 1
+b = 2
+
+if a == b:
+    print('ok')
+    print('ok')
+    b = 4
+else:
+    print('not ok')

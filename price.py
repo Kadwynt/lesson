@@ -1,5 +1,6 @@
-def format_price (price):
-    price = int(price)
-    return "Цена: {} руб.".format(price)
-aaa = format_price(56.24)
-print(aaa)
+def stringy(size):
+    a = '10' * size
+    a=a[0:size]
+    return (a)
+
+print(stringy(1))
